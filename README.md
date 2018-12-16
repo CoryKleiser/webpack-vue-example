@@ -1,30 +1,22 @@
-# my-project
+# Import images via javascript and pass to child vue component as prop
 
-> A Vue.js project
+> Demonstration of the above
 
 ## Build Setup
 
 ``` bash
+# clone project
+git clone https://github.com/CoryKleiser/webpack-vue-example.git
+
+# enter project directory
+cd my-project
+
 # install dependencies
 npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Open localhost:8080 and see vue logo image appearing. In App.vue look at how I pass that image to MyComponent.
