@@ -9,7 +9,7 @@
 git clone https://github.com/CoryKleiser/webpack-vue-example.git
 
 # enter project directory
-cd my-project
+cd webpack-vue-example
 
 # install dependencies
 npm install
